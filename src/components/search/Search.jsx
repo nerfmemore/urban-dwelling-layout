@@ -9,7 +9,7 @@ function Search() {
                 <div className={styles.position}>
                     <div className={styles.promo}>
                         <div className={styles.tag}>Акция</div>
-                        <img className={styles.image} src="/photo1.jpeg" alt="Фото светильника" />
+                        <img className={styles.image} src="./photo1.jpeg" alt="Фото светильника" />
                         <div className={styles.description}>
                             <button className={styles.button}>Подробнее</button>
                         </div>
@@ -22,7 +22,7 @@ function Search() {
                 </div>
                 <div className={styles.position}>
                     <div className={styles.promo}>
-                        <img className={styles.image} src="/photo2.jpeg" alt="Фото светильника" />
+                        <img className={styles.image} src="./photo2.jpeg" alt="Фото светильника" />
                         <div className={styles.description}>
                             <button className={styles.button}>Подробнее</button>
                         </div>
@@ -35,7 +35,7 @@ function Search() {
                 <div className={styles.position}>
                     <div className={styles.promo}>
                         <div className={styles.tag}>Акция</div>
-                        <img className={styles.image} src="/photo3.jpeg" alt="Фото светильника" />
+                        <img className={styles.image} src="./photo3.jpeg" alt="Фото светильника" />
                         <div className={styles.description}>
                             <button className={styles.button}>Подробнее</button>
                         </div>
@@ -48,7 +48,7 @@ function Search() {
                 </div>
                 <div className={styles.position}>
                     <div className={styles.promo}>
-                        <img className={styles.image} src="/photo1.jpeg" alt="Фото светильника" />
+                        <img className={styles.image} src="./photo1.jpeg" alt="Фото светильника" />
                         <div className={styles.description}>
                             <button className={styles.button}>Подробнее</button>
                         </div>
@@ -61,7 +61,7 @@ function Search() {
                 <div className={styles.position}>
                     <div className={styles.promo}>
                         <div className={styles.tag}>Акция</div>
-                        <img className={styles.image} src="/photo2.jpeg" alt="Фото светильника" />
+                        <img className={styles.image} src="./photo2.jpeg" alt="Фото светильника" />
                         <div className={styles.description}>
                             <button className={styles.button}>Подробнее</button>
                         </div>
@@ -74,7 +74,7 @@ function Search() {
                 </div>
                 <div className={styles.position}>
                     <div className={styles.promo}>
-                        <img className={styles.image} src="/photo3.jpeg" alt="Фото светильника" />
+                        <img className={styles.image} src="./photo3.jpeg" alt="Фото светильника" />
                         <div className={styles.description}>
                             <button className={styles.button}>Подробнее</button>
                         </div>
@@ -87,7 +87,7 @@ function Search() {
                 <div className={styles.position}>
                     <div className={styles.promo}>
                         <div className={styles.tag}>Акция</div>
-                        <img className={styles.image} src="/photo1.jpeg" alt="Фото светильника" />
+                        <img className={styles.image} src="./photo1.jpeg" alt="Фото светильника" />
                         <div className={styles.description}>
                             <button className={styles.button}>Подробнее</button>
                         </div>
@@ -100,7 +100,7 @@ function Search() {
                 </div>
                 <div className={styles.position}>
                     <div className={styles.promo}>
-                        <img className={styles.image} src="/photo2.jpeg" alt="Фото светильника" />
+                        <img className={styles.image} src="./photo2.jpeg" alt="Фото светильника" />
                         <div className={styles.description}>
                             <button className={styles.button}>Подробнее</button>
                         </div>
