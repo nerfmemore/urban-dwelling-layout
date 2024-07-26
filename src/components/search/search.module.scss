@@ -176,6 +176,30 @@
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr 1fr 1fr 1fr;
             .position {
+
+                .promo {
+                    .description {
+        
+                        .button {
+                            padding: 0.5rem 10% 0.5rem 10%;
+                            background: rgba(228, 83, 2, 1);
+                        }
+                    }
+                }
+
+                .title {
+                    font-size: 1rem;
+                    font-weight: 700;
+                    line-height: 25.2px;
+                }
+
+                .prices {
+                    .price, .sale, .old_price {
+                        font-size: 1rem;
+                        font-weight: 700;
+                        line-height: 22px;
+                    }
+                }
                 
                 .image {
                     min-height: 230px;
