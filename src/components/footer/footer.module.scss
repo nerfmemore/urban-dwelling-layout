@@ -1,0 +1,140 @@
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 60px 15%;
+    margin-top: 30px;
+    background-color: rgba(12, 12, 12, 1);
+    color: #fff;
+    
+
+    &_block { 
+
+        &_subtitle {
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        &_text {
+            font-weight: 400;
+        }
+
+        &_one {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            grid-area: 1 / 2 / 2 / 3;
+        }
+
+        &_two {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            grid-area: 2 / 2 / 3 / 3;
+        }
+
+        &_three {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            grid-area: 1 / 3 / 3 / 4;
+        }
+
+        &_four {
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            gap: 20px;
+            grid-area: 1 / 4 / 2 / 5;
+        }
+    }
+
+    &_logo {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    &_cards {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .capcha {
+        color: rgba(128, 128, 128, 1);
+        
+        &_one {
+            grid-area: 2 / 1 / 3 / 2;
+            color: rgba(128, 128, 128, 1);
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .footer {
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+
+        &_cards {
+            justify-content: start;
+            grid-area: 4 / 1 / 5 / 2;
+        }
+
+        .capcha {
+            color: rgba(128, 128, 128, 1);
+            
+            &_one {
+                grid-area: 4 / 2 / 5 / 4;
+                color: rgba(128, 128, 128, 1);
+            }
+        }
+
+        &_block { 
+            &_one {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                grid-area: 2 / 1 / 3 / 2;
+            }
+    
+            &_two {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                grid-area: 2 / 2 / 3 / 3;
+            }
+    
+            &_three {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                grid-area: 2 / 3 / 4 / 4;
+            }
+    
+            &_four {
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                gap: 20px;
+                grid-area: 3 / 1 / 4 / 2;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+
+        &_cards {
+            margin-top: 30px;
+        }
+
+        .capcha{
+            &_one {
+                order: 7;
+            }
+        }
+    }
+}
